@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image to Color Palette</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <h1>🎨 Image to Color Palette</h1>
+
+    <input type="file" id="imageInput" accept="image/*"/>
+    <div class="image-preview">
+      <img id="uploadedImage" crossorigin="anonymous" />
+    </div>
+
+    <div class="palette" id="palette"></div>
+  </div>
+
+  <!-- Color Thief Library -->
+  <script src="color-thief.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
